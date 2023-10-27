@@ -1,0 +1,151 @@
+.five{
+ width: 1254px;
+height: 1220px;
+flex-shrink: 0;
+background: #F0EBDF;
+position: relative;
+bottom: 5000px;
+
+}
+
+.Opinion{
+display: flex;
+color: var(--accent, #EDB86F);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+flex-direction: column;
+text-align: center;
+
+}
+
+.What{
+    color: var(--2, #092C27);
+text-align: center;
+font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 507px;
+    height: 400px;
+ margin-left: 150px;
+}
+
+.box {
+    width:  507px;
+    height: 150px;
+    background: #FFF;
+    /* border: 1px solid #333; */
+}
+.Para{
+
+/* border: solid red; */
+width: 400px;
+display: flex;
+justify-content: center;
+position: relative;
+left: 45px;
+top: -44px;
+    
+}
+.small-para{
+    color: #525755;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+   /* border: solid; */
+
+}
+
+.twitter{
+ width: 34px;
+height: 27px;
+flex-shrink: 0;
+float: right;
+margin-right: 10px;
+margin-top: -100px;
+}
+.twitter img{
+    display: block;
+    /* background: lightgray 50% / cover no-repeat; */
+}
+.dp img{
+    display: block;
+    border-radius: 40px;
+    background: lightgray 50% / cover no-repeat;
+
+    
+}
+
+.bell{
+  display: block;
+ position: relative;
+ left: 50px;
+ bottom: 50px;
+ color: var(--2, #092C27);
+
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.jerome{
+color: #525755;
+text-align: center;
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+top: -20px;
+left: -8px;
+ }
+
+ .btns{
+    display: flex;
+    width: 343px;
+    height: 58px;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: var(--accent, #EDB86F);
+     /* position: relative;
+    top: 380px;
+    left: 425px; */
+    position: relative;
+    left:300px;
+    top: 40px;
+}
+
+.btns button{
+color: #072C27;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+background: var(--accent, #EDB86F);
+}
+
+
+

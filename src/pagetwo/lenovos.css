@@ -1,0 +1,144 @@
+.lenvo{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 62px;
+}
+.second-page{
+    background: #F9F6EE;
+    width: 100%;
+    height: 800px;
+}
+.about{
+    color: var(--accent, #EDB86F);
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left:100px ;
+margin-top: 90px;
+}
+
+.fewword{
+    color: var(--2, #092C27);
+font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 453px;
+margin-left:100px ;
+margin-top: 50px;
+}
+
+.trust-para{
+    color: #525755;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 378px;
+margin-left:100px ;
+margin-top: 50px;
+}
+
+.more-para{
+    color: #072C27;
+
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.more-border-para{
+    display: flex;
+width: 347px;
+height: 49px;
+padding: 10px 15px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid var(--2, #092C27);
+margin-left:100px ;
+margin-top: 50px;
+}
+
+.side-img{
+    width: 430px;
+height: 500px;
+flex-shrink: 0;
+margin-left:600px;
+margin-top: -400px;
+box-shadow:50px 10px  #EDB96F;
+
+
+}
+
+@media screen and (max-width: 946px ) and (min-width: 120px){
+    .lenvo{
+        display: none;
+    }
+    .img-box{
+    
+    }
+    .side-img{
+        width: 371.099px;
+        height: 483.079px;
+        flex-shrink: 0;
+    position: relative;
+    top: 500px;
+
+    right: 600px;
+  
+     box-shadow:50px 10px  #EDB96F;
+    
+    
+    }
+    .second-page{
+width: 420px;
+height: 910px;
+flex-shrink: 0;
+    }
+    .fewword{
+        color: var(--2, #092C27);
+font-family: Lora;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 453px;
+margin: auto;
+    }
+    .trust-para{
+        color: #525755;
+
+font-family: Open Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 378px;
+margin: auto;
+    }
+    .more-para{
+        color: #072C27;
+
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: auto;
+
+    }
+    .more-border-para{
+        margin: auto;
+        position: relative;
+        top: 40px;
+    }
+}
+
+

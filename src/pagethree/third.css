@@ -1,0 +1,163 @@
+.pagethree{
+width: 1246px;
+height: 795px;
+flex-shrink: 0;
+
+/* display: flex;
+justify-content: center;  */
+background: var(--2, #092C27);
+display: flex;
+flex-direction: column; /* Stack items vertically */
+align-items: center; /* Center horizontally */
+text-align: center; /* Center text within the container */
+
+
+  
+}
+.heading {
+    margin-bottom: 20px;
+    color: var(--accent, #EDB86F);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 100px;
+  }
+  .content-container {
+    display: flex;
+    justify-content: space-between; /* Place percentage and other content at opposite sides */
+    align-items: center; /* Center vertically */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+.what-font{
+ color: var(--accent, #EDB86F);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+margin-top: 50px;
+}
+.what-font{
+ color: #FFF;
+font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 100px;
+margin-top: 20px;
+padding: 20px;
+    }
+
+.mid-container{
+/* display: flex;
+align-items: flex-start;
+gap: 198px; */
+display: flex;
+justify-content: space-between; /* Space elements evenly */
+align-items: center; /* Vertically center the elements */
+max-width: 800px; /* Adjust the maximum width as needed */
+margin: 0 auto; /* Center the container horizontally */
+          }
+
+.percentage{
+ color: var(--accent, #EDB86F);
+font-family: Open Sans;
+font-size: 100px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 0px; */
+text-align: left; /* Align percentage content to the left */
+margin-right: 20px;
+ }
+   
+ .other-content {
+        text-align: right; /* Align other content to the right */
+      }
+
+.thamk-font{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 324px;
+     }
+     .button{
+        display: inline-flex;
+        padding: 10px 15px;
+        align-items: flex-start;
+        gap: 10px;
+        background: var(--accent, #EDB86F);
+        border: none;
+            }
+    .btn{
+        color: #072C27;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        background: var(--accent, #EDB86F);
+    }
+
+.ten-plus{
+    color: var(--accent, #EDB86F);
+    font-family: Open Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+/* display: flex;
+flex-direction: column;
+position: relative;
+    left: 225px;
+    margin-top: 50px; */
+    
+}
+.years-font{
+ color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 324px;
+/* flex-direction: column;
+position: relative;
+left: 100px; */
+}
+
+.five-plus-1{
+    color: var(--accent, #EDB86F);
+    font-family: Open Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* flex-direction: column;
+    position: relative;
+   margin-top: 250px; */
+}
+
+.years-font-1{
+color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 324px;
+
+}

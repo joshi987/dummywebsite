@@ -1,0 +1,100 @@
+.six{
+ width: 1255px;
+height: 6082px;
+background: #F9F6EE;
+position: relative;
+bottom: 5000px;
+}
+
+.blog{
+display: flex;
+justify-content: center;
+
+color: var(--accent, #EDB86F);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+flex-direction: column;
+text-align: center;
+}
+
+.newsroom{
+color: var(--2, #092C27);
+text-align: center;
+font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px; /* Adjust the gap as needed */
+    text-align: center;
+   margin-top: 40px;
+    /* margin-left: 90px; */
+}
+
+.boxs{
+    width: 387px; /* Adjust the width as needed */
+    height: 542px; /* Adjust the height as needed */
+    background-color: accent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+   text-align: center;
+    position: relative;
+    bottom: 117px;
+    left: 171px;
+    
+}
+.criminalss{
+color: var(--2, #092C27);
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 200% */
+margin-top: 300px;
+position: relative;
+right: 320px;
+}
+
+
+
+
+.How{
+color: var(--2, #092C27);
+font-family: Open Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px; /* 134.615% */
+width: 345px;
+position: relative;
+left: 89px;
+}
+
+
+.p-l{
+ color: #525755;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 345px;
+position: relative;
+left: 74px;
+}
+
+

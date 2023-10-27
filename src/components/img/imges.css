@@ -1,0 +1,10 @@
+.girl{
+   
+}
+.img{
+    width: 555px;
+height: 672px;
+flex-shrink: 0;
+background: lightgray 50% / cover no-repeat;
+
+}

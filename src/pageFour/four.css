@@ -1,0 +1,129 @@
+.pagefour{
+    background: #F9F6EE;
+    width: 1246px;
+    height: 6082px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-gap: 6px; */
+    width: 300px;
+    height: 200px;
+    margin-right:1250px;
+    margin-bottom:5319px;
+   
+   
+}
+
+.cell {
+    width: 200.567px;
+    height: 283.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F0EBDF;
+    border:1px solid  #D9D9D9 ;
+}
+
+.cell img {
+    max-width: 50px;
+    max-height: 50px;
+    /* margin-bottom: 200px; */
+    position: relative;
+    bottom: 110px;
+}
+
+.bottom-right {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+ color: var(--2, #092C27);
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 22.998px;
+height: 34.746px;
+flex-shrink: 0;
+position: relative;
+top: -110px;
+left: -15px;
+
+}
+.Law{
+    /* border: solid red; */
+    margin-right: 50px;
+    position: relative;
+    left: -20px;
+    bottom: -107px;
+
+
+}
+.grid-text{
+color: var(--2, #092C27);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* margin-top: 250px; */
+}
+
+.special{
+    color: var(--accent, #EDB86F);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    bottom: 3000px;
+    left: 450px; */
+    margin-bottom: 5920px;
+   text-align: center;
+   position: relative;
+   left: 750px
+   
+}
+.Whatwe{
+color: var(--2, #092C27);
+text-align: center;
+font-family: Lora;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+ 
+}
+.para-1{
+color: #525755;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 728px;
+}
+
+.arrow{
+    position: relative;
+    top: 230px;
+    left: -10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+.para{
+width: 708px;
+ color: var(--2, #092C27);
+font-family: Lora;
+font-size: 90px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sucess{
+    color: var(--2, #EDB96F);
+font-family: Lora;
+font-size: 90px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+
+.smallPara{
+    width: 552px;
+    color: #525755;
+
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.Bookfree{
+color: #072C27;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: inline-flex;
+padding: 10px 15px;
+align-items: flex-start;
+gap: 10px;
+background: var(--accent, #EDB86F);
+}
+
+.girl{
+    width: 425px;
+    height: 460px;
+    flex-shrink: 0;
+    float: right;
+    margin-top: -343px; /* Adjust this value to move the image up or down */
+    margin-left: 20px;
+    
+}
+
+@media screen and (max-width: 946px ) and (min-width: 120px)
+{
+.smallPara{
+    color: #525755;
+    width: 294px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    bottom: 650px;
+    }
+
+    .sucess{
+ color: var(--2, #EDB96F);
+font-family: Lora;
+font-size: 40px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+    }
+    .girl{
+        width: 456px;
+        height: 412px;
+        /* position: fixed; */
+        /* top: 1000px;
+        right: 850px; */
+        /* border: solid; */
+        
+    }
+    .span-img{
+        display: flex;
+    }
+    .para{
+color: var(--2, #092C27);
+text-align: center;
+font-family: Lora;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+bottom: 700px;
+width: 293px;
+    }
+
+    .Bookfree{
+        color: #072C27;
+
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: none;
+
+    }
+    .Book{
+        display: inline-flex;
+padding: 10px 15px;
+align-items: flex-start;
+gap: 10px;
+background: var(--accent, #EDB86F);
+position: relative;
+bottom: 650px;
+margin-left: 20px;
+    }
+}
+
+
